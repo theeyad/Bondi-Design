@@ -1,0 +1,139 @@
+/* Start Pre-Design */
+:root {
+  --dark-color: #19283f;
+  --green-primary: #33d1cc;
+  --green-secondary: #8c949f;
+  --yellow-primary: #ff3150;
+  --yellow-secondary: #ffc400;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-btn,
+.btn.custom-btn:hover {
+  background-color: var(--yellow-primary);
+  color: var(--yellow-secondary);
+}
+/* End Pre-Design */
+
+/* Start Header */
+.navbar {
+  background-color: var(--dark-color);
+}
+
+.navbar .navbar-toggler {
+  color: white;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+  color: var(--green-primary);
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] ~ .custom-btn {
+  margin-left: 0 !important;
+}
+
+.navbar .search {
+  color: var(--green-primary);
+  cursor: pointer;
+  border-left: 2px solid var(--green-primary);
+  border-radius: 1px;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.show {
+  color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: var(--green-primary);
+}
+
+@media (min-width: 1550px) {
+  .container-fluid-xxl {
+    max-width: 100%;
+    padding: 0 2em;
+  }
+
+  .navbar-nav .nav-link,
+  .navbar .search,
+  .navbar .login {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .navbar-nav .nav-link,
+  .navbar .search,
+  .navbar .login {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 2400px) {
+  .navbar-nav .nav-link,
+  .navbar .search,
+  .navbar .login {
+    font-size: 1.75rem;
+  }
+}
+/* End Header */
+
+/* Start Landing */
+.landing {
+  background-color: var(--dark-color);
+  height: calc(100vh - 72px);
+}
+
+.landing .introduction .desc {
+  color: var(--green-secondary);
+}
+
+@media (min-width: 1550px) {
+  .landing .intro {
+    font-size: 3rem;
+  }
+
+  .landing .desc {
+    font-size: 1.25rem;
+  }
+
+  .landing .start {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .landing .intro {
+    font-size: 4rem;
+  }
+
+  .landing .desc {
+    font-size: 1.75rem;
+  }
+
+  .landing .start {
+    font-size: 2rem !important;
+  }
+}
+
+@media (min-width: 2400px) {
+  .landing .intro {
+    font-size: 5rem;
+  }
+
+  .landing .desc {
+    font-size: 2rem;
+  }
+
+  .landing .start {
+    font-size: 2.5rem !important;
+  }
+}
+/* End Landing */
