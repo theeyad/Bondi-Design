@@ -26,7 +26,7 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container container-fluid-xxl">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#home">
                     <img src="images/logo.png" alt="Website Logo">
                 </a>
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
@@ -46,17 +46,20 @@
                             <a class="nav-link p-2 p-lg-3" aria-current="page" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-2 p-lg-3" aria-current="page" href="#">About</a>
+                            <a class="nav-link p-2 p-lg-3" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-2 p-lg-3" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link p-2 p-lg-3" aria-current="page" href="#blog">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 p-lg-3" aria-current="page" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="search ps-2 ms-3 d-none d-lg-block">
+                <div class="search ps-2 ms-3 d-none d-lg-block position-relative">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <a class="login btn rounded-pill ms-1 ms-lg-3 custom-btn px-3 py-2" href="#">Login</a>
+                <input class="search-input px-2 py-1 d-none" type="text" id="search" placeholder="Search Not Working :)">
             </div>
         </nav>
     </header>
@@ -67,7 +70,7 @@
         <div class="introduction text-center">
             <h1 class="intro text-capitalize text-white mb-0">taste the creativity</h1>
             <p class="desc fw-bold mt-2 mb-0 mx-3">We make awesome graphic and web design</p>
-            <a class="start btn rounded-pill custom-btn text-capitalize mt-5 fw-bold fs-5 px-3 py-2" href="#">get
+            <a class="start btn rounded-pill custom-btn text-capitalize mt-5 fw-bold fs-5 px-3 py-2" href="#contact">get
                 started
             </a>
         </div>
@@ -78,7 +81,7 @@
     <section id="services" class="services py-5">
         <img class="position-relative start-50 translate-middle-x shape" src="images/title.png"
             alt="Special Shape Image">
-        <div class="services-text text-center mt-4">
+        <div class="main-text text-center mt-4">
             <h2 class="fs-1 mb-0">We are Good at</h2>
             <p class="main-title desc text-uppercase fw-medium mt-2 mb-0">Some Of These Stuff Under</p>
         </div>
@@ -119,6 +122,19 @@
     </section>
     <!-- End Services -->
 
+    <!-- Start Portfolio -->
+    <section id="portfolio" class="portfolio py-5">
+        <img class="position-relative start-50 translate-middle-x shape" src="images/title.png"
+            alt="Special Shape Image">
+        <div class="main-text text-center mt-4">
+            <h2 class="fs-1 mb-0">We are Good at</h2>
+            <p class="main-title desc text-uppercase fw-medium mt-2 mb-0">Some Of These Stuff Under</p>
+        </div>
+        <div class="portfolio-filter">
+
+        </div>
+    </section>
+    <!-- End Portfolio -->
 
 
     <!-- Font Awesome -->
