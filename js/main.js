@@ -55,7 +55,8 @@ function portfolioFilter(images, btnName) {
   let numOfRows = Math.ceil(filtered.length / 4);
 
   let newPortfolioContainer = document.createElement("div");
-  newPortfolioContainer.className = "container container-fluid-xxl portfolio-container";
+  newPortfolioContainer.className =
+    "container container-fluid-xxl portfolio-container";
 
   let portfolioSection = document.getElementById("portfolio");
 
@@ -69,7 +70,7 @@ function portfolioFilter(images, btnName) {
     chunk.forEach((img) => {
       let image = document.createElement("div");
       image.className = "image col-12 col-sm-6 col-lg-3";
-      image.dataset.name = img.dataset.name
+      image.dataset.name = img.dataset.name;
 
       image.append(img);
 
