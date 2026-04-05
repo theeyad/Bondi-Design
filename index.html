@@ -8,6 +8,7 @@
     <meta name="description" content="Bondi Design">
     <meta name="author" content="Eyad Othman">
     <title>Bondi</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <!-- Roboto Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,7 +60,8 @@
                 <div class="search ps-2 ms-3 d-none d-lg-block position-relative">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <input class="search-input px-2 py-1 d-none" type="text" id="search" placeholder="Search Not Working :)">
+                <input class="search-input px-2 py-1 d-none" type="text" id="search"
+                    placeholder="Search Not Working :)">
             </div>
         </nav>
     </header>
@@ -123,15 +125,63 @@
     <!-- End Services -->
 
     <!-- Start Portfolio -->
-    <section id="portfolio" class="portfolio py-5">
+    <section id="portfolio" class="portfolio pt-5 pb-4">
         <img class="position-relative start-50 translate-middle-x shape" src="images/title.png"
             alt="Special Shape Image">
         <div class="main-text text-center mt-4">
-            <h2 class="fs-1 mb-0">We are Good at</h2>
-            <p class="main-title desc text-uppercase fw-medium mt-2 mb-0">Some Of These Stuff Under</p>
+            <h2 class="fs-1 mb-0">We Make This</h2>
+            <p class="main-title desc text-uppercase fw-medium mt-2 mb-0">Prepare To Be Amazed</p>
         </div>
-        <div class="portfolio-filter">
-
+        <div class="portfolio-filter d-flex justify-content-center align-items-center gap-2 mt-5">
+            <button class="btn rounded-pill custom-btn text-capitalize fw-bold fs-5 px-3 py-2"
+                data-name="all">All</button>
+            <button class="btn" data-name="graphic">Graphic</button>
+            <button class="btn" data-name="design">Design</button>
+            <button class="btn" data-name="dev">Dev</button>
+        </div>
+        <div class="container portfolio-container">
+            <div class="row mt-4">
+                <div data-name="graphic" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="graphic" src="images/portfolio_1.jpg" alt="JS Graphic Image">
+                </div>
+                <div data-name="graphic" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="graphic" src="images/portfolio_2.jpg" alt="Adventure Time Graphic Image">
+                </div>
+                <div data-name="graphic" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="graphic" src="images/portfolio_3.jpg" alt="Mountain Graphic Image">
+                </div>
+                <div data-name="graphic" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="graphic" src="images/portfolio_4.jpg" alt="Mountain Fuji Graphic Image">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div data-name="design" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="design" src="images/portfolio_5.jpg" alt="Spider Man Web Design Image">
+                </div>
+                <div data-name="design" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="design" src="images/portfolio_6.jpg" alt="Black Panther Web Design Image">
+                </div>
+                <div data-name="graphic" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="graphic" src="images/portfolio_7.jpg" alt="Color Pallete Graphic Image">
+                </div>
+                <div data-name="graphic" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="graphic" src="images/portfolio_8.jpg" alt="Dark Mountain Graphic Image">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div data-name="dev" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="dev" src="images/portfolio_9.jpg" alt="Github Image">
+                </div>
+                <div data-name="design" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="design" src="images/portfolio_10.jpg" alt="Stram Site Web Design Image">
+                </div>
+                <div data-name="dev" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="dev" src="images/portfolio_11.jpg" alt="React JS Framework Image">
+                </div>
+                <div data-name="graphic" class="image col-12 col-sm-6 col-lg-3">
+                    <img data-name="graphic" src="images/portfolio_12.jpg" alt="We Bare Bears Graphic Image">
+                </div>
+            </div>
         </div>
     </section>
     <!-- End Portfolio -->
