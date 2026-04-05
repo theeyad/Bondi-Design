@@ -55,7 +55,7 @@ function portfolioFilter(images, btnName) {
   let numOfRows = Math.ceil(filtered.length / 4);
 
   let newPortfolioContainer = document.createElement("div");
-  newPortfolioContainer.className = "container portfolio-container";
+  newPortfolioContainer.className = "container container-fluid-xxl portfolio-container";
 
   let portfolioSection = document.getElementById("portfolio");
 

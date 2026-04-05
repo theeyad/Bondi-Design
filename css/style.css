@@ -400,4 +400,46 @@ body {
   background-color: white;
   box-shadow: 0 0 5px 0px rgb(0 0 0 / 40%);
 }
+
+@media (min-width: 1550px) {
+  .portfolio-filter button {
+    font-size: 1.75rem !important;
+  }
+
+  .portfolio .container .image::before {
+    font-size: 3rem;
+  }
+
+  .portfolio .container .image {
+    max-height: 225px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .portfolio-filter button {
+    font-size: 2rem !important;
+  }
+
+  .portfolio .container .image::before {
+    font-size: 3.5rem;
+  }
+
+  .portfolio .container .image {
+    max-height: 270px;
+  }
+}
+
+@media (min-width: 2400px) {
+  .portfolio-filter button {
+    font-size: 2.25rem !important;
+  }
+
+  .portfolio .container .image::before {
+    font-size: 4rem;
+  }
+
+  .portfolio .container .image {
+    max-height: 310px;
+  }
+}
 /* End Portfolio */
