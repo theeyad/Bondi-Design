@@ -443,3 +443,103 @@ body {
   }
 }
 /* End Portfolio */
+
+/* Start About */
+.about .about-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--secondary-color);
+}
+
+.about .container .text p {
+  color: var(--secondary-color);
+}
+
+@media (min-width: 1550px) {
+  .about .about-text {
+    max-width: 600px;
+    font-size: 1.25rem;
+  }
+
+  .about .container .text {
+    flex: 0 0 auto;
+    width: 55%;
+  }
+
+  .about .container .image {
+    flex: 0 0 auto;
+    width: 45%;
+  }
+
+  .about .container .text h4 {
+    font-size: 2.25rem;
+  }
+
+  .about .container .text p {
+    font-size: 1.25rem;
+  }
+
+  .about .container .text a {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .about .about-text {
+    max-width: 700px;
+    font-size: 1.5rem;
+  }
+
+  .about .container .text {
+    flex: 0 0 auto;
+    width: 60%;
+  }
+
+  .about .container .image {
+    flex: 0 0 auto;
+    width: 40%;
+  }
+
+  .about .container .text h4 {
+    font-size: 2.5rem;
+  }
+
+  .about .container .text p {
+    font-size: 1.5rem;
+  }
+
+  .about .container .text a {
+    font-size: 2rem !important;
+  }
+}
+
+@media (min-width: 2400px) {
+  .about .about-text {
+    max-width: 900px;
+    font-size: 2rem;
+  }
+
+  .about .container .text {
+    flex: 0 0 auto;
+    width: 65%;
+  }
+
+  .about .container .image {
+    flex: 0 0 auto;
+    width: 35%;
+  }
+
+  .about .container .text h4 {
+    font-size: 3rem;
+  }
+
+  .about .container .text p {
+    font-size: 2rem;
+  }
+
+  .about .container .text a {
+    font-size: 2.5rem !important;
+  }
+}
+/* End About */
