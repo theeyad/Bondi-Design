@@ -87,3 +87,9 @@ function portfolioFilter(images, btnName) {
   portfolioSection.append(newPortfolioContainer);
 }
 // End Portfolio
+
+// Start Tech
+const marquee = document.getElementById("marquee");
+const clone = marquee.innerHTML;
+marquee.innerHTML += clone;
+// End Tech

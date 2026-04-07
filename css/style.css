@@ -669,3 +669,40 @@ body {
   }
 }
 /* End Team */
+
+/* Start Tech */
+.tech {
+  overflow: hidden;
+}
+
+.tech .row {
+  width: max-content;
+  animation: scroll-left 70s linear infinite;
+}
+
+.tech svg {
+  width: 80px;
+  fill: var(--secondary-color);
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 2000px) {
+  .tech svg {
+    width: 100px;
+  }
+}
+
+@media (min-width: 2400px) {
+  .tech svg {
+    width: 120px;
+  }
+}
+/* End Tech */
