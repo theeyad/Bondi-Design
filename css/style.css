@@ -762,3 +762,45 @@ body {
   }
 }
 /* End Project */
+
+/* Start Blog */
+.blog .card-text {
+  color: var(--secondary-color);
+}
+
+@media (min-width: 1550px) {
+  .blog .card-text {
+    font-size: 1.5rem;
+  }
+
+  .blog .card-title {
+    font-size: 1.75rem !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .blog .card-text {
+    font-size: 1.75rem;
+  }
+
+  .blog .card-title {
+    font-size: 2.25rem !important;
+  }
+}
+
+@media (min-width: 2400px) {
+  .blog .card-text {
+    font-size: 2rem;
+  }
+
+  .blog .card-title {
+    font-size: 2.75rem !important;
+  }
+}
+/* End Blog */
+
+/* Start Subscription */
+.subscription {
+  background-color: var(--yellow-secondary);
+}
+/* End Subscription */
