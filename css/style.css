@@ -706,3 +706,59 @@ body {
   }
 }
 /* End Tech */
+
+/* Start Project */
+.project {
+  background-color: var(--dark-color);
+}
+
+.project .title {
+  color: white;
+}
+
+.project .desc {
+  color: var(--green-secondary);
+}
+
+@media (min-width: 1550px) {
+  .project .title {
+    font-size: 3rem !important;
+  }
+
+  .project .desc {
+    font-size: 1.25rem;
+  }
+
+  .project a {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .project .title {
+    font-size: 4rem !important;
+  }
+
+  .project .desc {
+    font-size: 1.75rem;
+  }
+
+  .project a {
+    font-size: 2rem !important;
+  }
+}
+
+@media (min-width: 2400px) {
+  .project .title {
+    font-size: 5rem !important;
+  }
+
+  .project .desc {
+    font-size: 2rem;
+  }
+
+  .project a {
+    font-size: 2.5rem !important;
+  }
+}
+/* End Project */
