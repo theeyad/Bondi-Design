@@ -93,3 +93,21 @@ const marquee = document.getElementById("marquee");
 const clone = marquee.innerHTML;
 marquee.innerHTML += clone;
 // End Tech
+
+// Start Subscription
+let subscriptionForm = document.querySelector(".subscription .form");
+let subscriptionInput = document.getElementById("email");
+
+subscriptionForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+  let isValid = emailRegex.test(subscriptionInput.value);
+
+  if (isValid === false) {
+    alert("Please enter a valid email address.");
+  } else {
+    alert("Valid email address!");
+  }
+});
+// End Subscription
