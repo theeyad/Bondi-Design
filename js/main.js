@@ -12,6 +12,17 @@ document.addEventListener("click", (e) => {
     searchInput.classList.add("d-none");
   }
 });
+
+let navbarLinks = document.querySelectorAll(".navbar .navbar-nav .nav-item a");
+
+navbarLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    document
+      .querySelector(".navbar .navbar-nav .nav-item a.active")
+      .classList.remove("active");
+    e.target.classList.add("active");
+  });
+});
 // End Header
 
 // Start Portfolio
