@@ -883,6 +883,12 @@ body {
   color: white;
 }
 
+.footer .link-list-item {
+  width: 100%;
+  list-style: none;
+  justify-items: center;
+}
+
 .footer .nav-link {
   width: fit-content;
   margin-top: 0.75em;
@@ -917,6 +923,12 @@ body {
 .footer svg {
   width: 30px;
   height: 100%;
+}
+
+@media (min-width: 992px) {
+  .footer .link-list-item {
+    justify-items: unset;
+  }
 }
 
 @media (min-width: 1550px) {
